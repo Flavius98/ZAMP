@@ -1,0 +1,940 @@
+warning: doxygen no longer ships with the FreeSans font.
+You may want to clear or change DOT_FONTNAME.
+Otherwise you run the risk that the wrong font is being used for dot generated graphs.
+warning: The selected output language "polish" has not been updated
+since release 1.8.2.  As a result some sentences may appear in English.
+
+/home/adam/Pulpit/zamp z zajęć/ZAMP/inc/geomVector.hh:405: warning: documented symbol `Type geom::Vector< Type, Size >::operator&' was not declared or defined.
+/home/adam/Pulpit/zamp z zajęć/ZAMP/inc/klient.hh:125: warning: argument 'rSender' of command @param is not found in the argument list of Fun_CommunicationThread(Sender *pSender)
+/home/adam/Pulpit/zamp z zajęć/ZAMP/src/klient.cpp:20: warning: The following parameters of Fun_CommunicationThread(Sender *pSender) are not documented:
+  parameter 'pSender'
+/home/adam/Pulpit/zamp z zajęć/ZAMP/inc/klient.hh:125: warning: argument 'rSender' of command @param is not found in the argument list of Fun_CommunicationThread(Sender *pSender)
+/home/adam/Pulpit/zamp z zajęć/ZAMP/inc/klient.hh:132: warning: The following parameters of Fun_CommunicationThread(Sender *pSender) are not documented:
+  parameter 'pSender'
+/home/adam/Pulpit/zamp z zajęć/ZAMP/src/xmlinterp.cpp:335: warning: argument 'sFileName' of command @param is not found in the argument list of ReadFile(const char *filename, Configuration &config)
+/home/adam/Pulpit/zamp z zajęć/ZAMP/src/xmlinterp.cpp:335: warning: argument 'CmdList' of command @param is not found in the argument list of ReadFile(const char *filename, Configuration &config)
+/home/adam/Pulpit/zamp z zajęć/ZAMP/src/xmlinterp.cpp:335: warning: argument 'sFileName' of command @param is not found in the argument list of ReadFile(const char *filename, Configuration &config)
+/home/adam/Pulpit/zamp z zajęć/ZAMP/src/xmlinterp.cpp:335: warning: argument 'CmdList' of command @param is not found in the argument list of ReadFile(const char *filename, Configuration &config)
+/home/adam/Pulpit/zamp z zajęć/ZAMP/src/xmlinterp.cpp:343: warning: The following parameters of ReadFile(const char *filename, Configuration &config) are not documented:
+  parameter 'filename'
+  parameter 'config'
+/home/adam/Pulpit/zamp z zajęć/ZAMP/src/xmlinterp.cpp:335: warning: argument 'sFileName' of command @param is not found in the argument list of ReadFile(const char *filename, Configuration &config)
+/home/adam/Pulpit/zamp z zajęć/ZAMP/src/xmlinterp.cpp:335: warning: argument 'CmdList' of command @param is not found in the argument list of ReadFile(const char *filename, Configuration &config)
+/home/adam/Pulpit/zamp z zajęć/ZAMP/src/xmlinterp.cpp:335: warning: argument 'sFileName' of command @param is not found in the argument list of ReadFile(const char *filename, Configuration &config)
+/home/adam/Pulpit/zamp z zajęć/ZAMP/src/xmlinterp.cpp:335: warning: argument 'CmdList' of command @param is not found in the argument list of ReadFile(const char *filename, Configuration &config)
+/home/adam/Pulpit/zamp z zajęć/ZAMP/inc/xmlinterp.hh:92: warning: The following parameters of ReadFile(const char *filename, Configuration &config) are not documented:
+  parameter 'filename'
+  parameter 'config'
+/home/adam/Pulpit/zamp z zajęć/ZAMP/inc/klient.hh:77: warning: argument 'Socket' of command @param is not found in the argument list of Sender::Watching_and_Sending()
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/AccessControl_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/AccessControl_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not foundsh: 1: dot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Configuration_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Configuration_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/AccessControl_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/AccessControl_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Configuration_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Configuration_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Configuration_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Configuration_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/geomVector_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/geomVector_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/geomVector_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/geomVector_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Command_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Command_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8cpp_ad4f8d6a4dc782b0f28c6d962b417afdb_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8cpp_ad4f8d6a4dc782b0f28c6d962b417afdb_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Command_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Command_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_acb42c02972ba9bd7a0fd4c55252d2547_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_acb42c02972ba9bd7a0fd4c55252d2547_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_a6b5860a5da38cf8fa0d6b1221373f3f9_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_a6b5860a5da38cf8fa0d6b1221373f3f9_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_a6b5860a5da38cf8fa0d6b1221373f3f9_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_a6b5860a5da38cf8fa0d6b1221373f3f9_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_a49ba9261b2ded960bce23328c431e31d_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_a49ba9261b2ded960bce23328c431e31d_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_acb42c02972ba9bd7a0fd4c55252d2547_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_acb42c02972ba9bd7a0fd4c55252d2547_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_ad7d409ff5eb0e067f283005e8998d4c0_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_ad7d409ff5eb0e067f283005e8998d4c0_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_a6b5860a5da38cf8fa0d6b1221373f3f9_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_a6b5860a5da38cf8fa0d6b1221373f3f9_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_acb42c02972ba9bd7a0fd4c55252d2547_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_acb42c02972ba9bd7a0fd4c55252d2547_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_a6b5860a5da38cf8fa0d6b1221373f3f9_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_a6b5860a5da38cf8fa0d6b1221373f3f9_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_ad7d409ff5eb0e067f283005e8998d4c0_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_ad7d409ff5eb0e067f283005e8998d4c0_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_acb42c02972ba9bd7a0fd4c55252d2547_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_acb42c02972ba9bd7a0fd4c55252d2547_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/LibInterface_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/LibInterface_8cpp__incl.png"'
+dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_a49ba9261b2ded960bce23328c431e31d_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_a49ba9261b2ded960bce23328c431e31d_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/LibInterface_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/LibInterface_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/MobileObj_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/MobileObj_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/LibInterface_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/LibInterface_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/MobileObj_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/MobileObj_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Port_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Port_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/main_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/main_8cpp__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Scena_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Scena_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Set4LibInterfaces_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Set4LibInterfaces_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Scena_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Scena_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Scena_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Scena_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Set4LibInterfaces_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Set4LibInterfaces_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Set4LibInterfaces_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Set4LibInterfaces_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Vector3D_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Vector3D_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Vector3D_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Vector3D_8hh__dep__incl.png"'
+dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8cpp__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh_a1f40df0aaacc9a19374e7e689807a96f_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh_a1f40df0aaacc9a19374e7e689807a96f_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8cpp_a1f40df0aaacc9a19374e7e689807a96f_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8cpp_a1f40df0aaacc9a19374e7e689807a96f_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh_a1f40df0aaacc9a19374e7e689807a96f_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh_a1f40df0aaacc9a19374e7e689807a96f_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh__dep__incl.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_ac05a143ff477cee359603872b7642943_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_ac05a143ff477cee359603872b7642943_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl__inherit__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_a687d41c24cb496f070915eb7c813f08f_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_a687d41c24cb496f070915eb7c813f08f_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_abd4921dc14c3568563c2ae35f4b43c29_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_abd4921dc14c3568563c2ae35f4b43c29_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a9d2a39501aa339b6fba9297f87d09eb5_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a9d2a39501aa339b6fba9297f87d09eb5_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_aff3de9ca43882da925567c0057618cc5_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_aff3de9ca43882da925567c0057618cc5_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8cpp_a1f40df0aaacc9a19374e7e689807a96f_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8cpp_a1f40df0aaacc9a19374e7e689807a96f_icgraph.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a02b46bfb4ecadeccb76818eb2f6c76af_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a02b46bfb4ecadeccb76818eb2f6c76af_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a5ddf63b9e78e4c772b3819a7e6bb8d1a_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a5ddf63b9e78e4c772b3819a7e6bb8d1a_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_afc324796c4a8bda5432526fc49e339b3_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_afc324796c4a8bda5432526fc49e339b3_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a0dd0fa189e239f4c9a036303f641441e_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a0dd0fa189e239f4c9a036303f641441e_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command__inherit__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a08fbbf2a70cdac46930b0eba6f5f361c_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a08fbbf2a70cdac46930b0eba6f5f361c_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a5ddf63b9e78e4c772b3819a7e6bb8d1a_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a5ddf63b9e78e4c772b3819a7e6bb8d1a_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a9b1bff7ff363991b35965ae9dfeac648_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a9b1bff7ff363991b35965ae9dfeac648_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a620ba28206850d0bce8dbb2364c73366_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a620ba28206850d0bce8dbb2364c73366_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a3e15ef01af10fa8961926fd9b0274ab8_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a3e15ef01af10fa8961926fd9b0274ab8_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move__inherit__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a66191f9fe67d4b0fd4d35da3b9927518_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a66191f9fe67d4b0fd4d35da3b9927518_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a693ca79d24ba27d11a19ed6fc90c37b9_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a693ca79d24ba27d11a19ed6fc90c37b9_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a6a224a2af44460ab5fd13167fbadf96b_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a6a224a2af44460ab5fd13167fbadf96b_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_aae1e3bf7fc34076f19d857a8cd30082e_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_aae1e3bf7fc34076f19d857a8cd30082e_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a6a224a2af44460ab5fd13167fbadf96b_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a6a224a2af44460ab5fd13167fbadf96b_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_aae1e3bf7fc34076f19d857a8cd30082e_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_aae1e3bf7fc34076f19d857a8cd30082e_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a83a48fe1db612f65539ed888c434c2b5_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a83a48fe1db612f65539ed888c434c2b5_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not founderror: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a8ed3abb0ba307e144e4c07f586f48eb9_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a8ed3abb0ba307e144e4c07f586f48eb9_icgraph.png"'
+
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a83787a2f3cc02c0164597ff506fed3de_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a83787a2f3cc02c0164597ff506fed3de_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause__inherit__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a2c2cff88acbf4b30147d60f47f181494_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a2c2cff88acbf4b30147d60f47f181494_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a9668ab16becc4f26de22a764925906e7_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a9668ab16becc4f26de22a764925906e7_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a53181eb25fc5a9c0104400f561c8ce62_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a53181eb25fc5a9c0104400f561c8ce62_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a2c2cff88acbf4b30147d60f47f181494_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a2c2cff88acbf4b30147d60f47f181494_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_aaf3f5db3c3f9a49ea4f9e5af74f0f240_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_aaf3f5db3c3f9a49ea4f9e5af74f0f240_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_aa12d0dd443e7c46c88f3f139d7382a1d_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_aa12d0dd443e7c46c88f3f139d7382a1d_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate__inherit__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate__inherit__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_acd9e8ff38a42487c17c98d28d8d81532_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_acd9e8ff38a42487c17c98d28d8d81532_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_acd9e8ff38a42487c17c98d28d8d81532_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_acd9e8ff38a42487c17c98d28d8d81532_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a83787a2f3cc02c0164597ff506fed3de_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a83787a2f3cc02c0164597ff506fed3de_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_a7a9896e29d1137699a9d5171e6133ffb_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_a7a9896e29d1137699a9d5171e6133ffb_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_afe8f0132a28f367334eb9460e3abdd11_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_afe8f0132a28f367334eb9460e3abdd11_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_a72ca6a7b4049030cd17af9cce98b2b5f_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_a72ca6a7b4049030cd17af9cce98b2b5f_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set__inherit__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set__inherit__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a1b3de8fc06124f8a37d188e6486e45d3_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a1b3de8fc06124f8a37d188e6486e45d3_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_a72ca6a7b4049030cd17af9cce98b2b5f_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_a72ca6a7b4049030cd17af9cce98b2b5f_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a7e61011caf16bc5bcdae597dc58db324_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a7e61011caf16bc5bcdae597dc58db324_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a05535040832e686d3519cd6399f80933_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a05535040832e686d3519cd6399f80933_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a05535040832e686d3519cd6399f80933_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a05535040832e686d3519cd6399f80933_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a7e61011caf16bc5bcdae597dc58db324_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a7e61011caf16bc5bcdae597dc58db324_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a527548fa6941cd398468835c6f861b3f_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a527548fa6941cd398468835c6f861b3f_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classLibInterface_a1c5c05329c2e4b8a76c7e2f0cad4bec7_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classLibInterface_a1c5c05329c2e4b8a76c7e2f0cad4bec7_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a71cdc0ef89ff18a6f2044536a8d7fead_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a71cdc0ef89ff18a6f2044536a8d7fead_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classLibInterface__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classLibInterface__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_a652f0c41aa6bc0e880e1932e10bf69cf_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_a652f0c41aa6bc0e880e1932e10bf69cf_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_ae348bbcf0a1d699330d4f56603bfcf51_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_ae348bbcf0a1d699330d4f56603bfcf51_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena__inherit__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_ad882b3d3c934c64c5e90a63246a47943_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_ad882b3d3c934c64c5e90a63246a47943_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_acf6f92f9b60d3f574187b2c4c92cef15_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_acf6f92f9b60d3f574187b2c4c92cef15_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_a48d02ca8a10b69d1390887ce1f0403c4_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_a48d02ca8a10b69d1390887ce1f0403c4_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_a168430769576f80dd00a4b5fde1a7fb0_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_a168430769576f80dd00a4b5fde1a7fb0_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_aedb5c55b91fd6bfdd93a2d224f92e05f_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_aedb5c55b91fd6bfdd93a2d224f92e05f_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_a1820f1143316026494d074b24e209dad_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_a1820f1143316026494d074b24e209dad_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender_a100a3e1f1a1ab4c388391e5b5a6de9f8_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender_a100a3e1f1a1ab4c388391e5b5a6de9f8_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender_a100a3e1f1a1ab4c388391e5b5a6de9f8_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender_a100a3e1f1a1ab4c388391e5b5a6de9f8_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a2937ad1176abdcc9296c1449e8c06e42_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a2937ad1176abdcc9296c1449e8c06e42_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender_a96412f54520d550dd1ea3e9b3bb29786_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender_a96412f54520d550dd1ea3e9b3bb29786_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a66e5a40ab6ed1b5910038e8fa353f4a0_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a66e5a40ab6ed1b5910038e8fa353f4a0_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a391e0a229dfb61c4591726431944734e_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a391e0a229dfb61c4591726431944734e_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config__inherit__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a1006bc9f78886f8665e4e248ee5a1e27_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a1006bc9f78886f8665e4e248ee5a1e27_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a1006bc9f78886f8665e4e248ee5a1e27_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a1006bc9f78886f8665e4e248ee5a1e27_icgraph.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5b02088c3e4421d8606f3a2e1f9ba411_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5b02088c3e4421d8606f3a2e1f9ba411_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5888326f2d9145908ff308e9aeff795e_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5888326f2d9145908ff308e9aeff795e_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a18cd48f030387cdc1c52211856735f33_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a18cd48f030387cdc1c52211856735f33_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5e3c76e68652f288d9bad7ce55493253_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5e3c76e68652f288d9bad7ce55493253_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5588af2dc423d361e688cbad0a3da877_cgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5588af2dc423d361e688cbad0a3da877_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5888326f2d9145908ff308e9aeff795e_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5888326f2d9145908ff308e9aeff795e_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a18cd48f030387cdc1c52211856735f33_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a18cd48f030387cdc1c52211856735f33_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/namespacegeom_ae7cf32f8462c8e56413fe6564b18cebe_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/namespacegeom_ae7cf32f8462c8e56413fe6564b18cebe_icgraph.png"'
+sh: 1: error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5e3c76e68652f288d9bad7ce55493253_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5e3c76e68652f288d9bad7ce55493253_icgraph.png"'
+dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector__coll__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector__inherit__graph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ab61e8a0071fce9a35785033c48c7f256_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ab61e8a0071fce9a35785033c48c7f256_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a079e4dfa05cae252743a011845be9380_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a079e4dfa05cae252743a011845be9380_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a22e2b0ee867b24e5c28986c450dfa015_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a22e2b0ee867b24e5c28986c450dfa015_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ab3ba3eea9ce5b60c0bdaa6cd0062a2e0_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ab3ba3eea9ce5b60c0bdaa6cd0062a2e0_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a6177b4b7c264345057bc97fe59f24e1b_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a6177b4b7c264345057bc97fe59f24e1b_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a2eb537bd0153ac0898a47dc10b0512a1_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a2eb537bd0153ac0898a47dc10b0512a1_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ade22504afc1efd37089d2921edf8d036_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ade22504afc1efd37089d2921edf8d036_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a1c9f0be69f15611dc2eb5afc18afdcde_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a1c9f0be69f15611dc2eb5afc18afdcde_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_abc4ad52f3fe464ae0aa8c06830e095f0_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_abc4ad52f3fe464ae0aa8c06830e095f0_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ad26800e2f6dd4d02a6a5c04d9993c41e_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ad26800e2f6dd4d02a6a5c04d9993c41e_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a2036ad643efa0a17f8f1e242b9f30c96_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a2036ad643efa0a17f8f1e242b9f30c96_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/graph_legend.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/graph_legend.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_b58d0ee721b2087e51cb0bcc78a10465_dep.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_b58d0ee721b2087e51cb0bcc78a10465_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_af40279932a4f4081f432c7e9866f6279_icgraph.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_af40279932a4f4081f432c7e9866f6279_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_e5c39bd51a803044aa486678acd3aea1_dep.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_e5c39bd51a803044aa486678acd3aea1_dep.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_b4c3aec6cd8f28418150dce663061cfa_dep.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_b4c3aec6cd8f28418150dce663061cfa_dep.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_2.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_2.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_1.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_1.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_0.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_0.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_6.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_6.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_3.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_3.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_5.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_5.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_7.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_7.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_4.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_4.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_9.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_9.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_8.dot" -Tpng -o "/home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_8.png"'
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/AccessControl_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/AccessControl_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Configuration_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Configuration_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Configuration_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/geomVector_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/geomVector_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Command_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Command_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8cpp_ad4f8d6a4dc782b0f28c6d962b417afdb_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Move_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Pause_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Rotate_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8cpp_a161c2be237a6e239fb12733df42be258_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Interp4Set_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_acb42c02972ba9bd7a0fd4c55252d2547_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_acb42c02972ba9bd7a0fd4c55252d2547_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_a6b5860a5da38cf8fa0d6b1221373f3f9_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_a6b5860a5da38cf8fa0d6b1221373f3f9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_a49ba9261b2ded960bce23328c431e31d_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8cpp_ad7d409ff5eb0e067f283005e8998d4c0_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_acb42c02972ba9bd7a0fd4c55252d2547_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_acb42c02972ba9bd7a0fd4c55252d2547_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_a6b5860a5da38cf8fa0d6b1221373f3f9_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_a6b5860a5da38cf8fa0d6b1221373f3f9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_a49ba9261b2ded960bce23328c431e31d_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/klient_8hh_ad7d409ff5eb0e067f283005e8998d4c0_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/LibInterface_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/LibInterface_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/LibInterface_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/main_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/MobileObj_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/MobileObj_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Port_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Scena_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Scena_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Scena_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Set4LibInterfaces_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Set4LibInterfaces_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Set4LibInterfaces_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Vector3D_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/Vector3D_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8cpp_a1f40df0aaacc9a19374e7e689807a96f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8cpp_a1f40df0aaacc9a19374e7e689807a96f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh_a1f40df0aaacc9a19374e7e689807a96f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/xmlinterp_8hh_a1f40df0aaacc9a19374e7e689807a96f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_ac05a143ff477cee359603872b7642943_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_a687d41c24cb496f070915eb7c813f08f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_abd4921dc14c3568563c2ae35f4b43c29_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classAccessControl_aff3de9ca43882da925567c0057618cc5_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a0dd0fa189e239f4c9a036303f641441e_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a9d2a39501aa339b6fba9297f87d09eb5_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a5ddf63b9e78e4c772b3819a7e6bb8d1a_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a5ddf63b9e78e4c772b3819a7e6bb8d1a_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classConfiguration_a02b46bfb4ecadeccb76818eb2f6c76af_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a620ba28206850d0bce8dbb2364c73366_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_afc324796c4a8bda5432526fc49e339b3_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a9b1bff7ff363991b35965ae9dfeac648_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a08fbbf2a70cdac46930b0eba6f5f361c_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a693ca79d24ba27d11a19ed6fc90c37b9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Command_a3e15ef01af10fa8961926fd9b0274ab8_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a66191f9fe67d4b0fd4d35da3b9927518_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a6a224a2af44460ab5fd13167fbadf96b_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a6a224a2af44460ab5fd13167fbadf96b_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_aae1e3bf7fc34076f19d857a8cd30082e_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_aae1e3bf7fc34076f19d857a8cd30082e_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a83a48fe1db612f65539ed888c434c2b5_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Move_a9668ab16becc4f26de22a764925906e7_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a8ed3abb0ba307e144e4c07f586f48eb9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a83787a2f3cc02c0164597ff506fed3de_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a83787a2f3cc02c0164597ff506fed3de_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a2c2cff88acbf4b30147d60f47f181494_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a2c2cff88acbf4b30147d60f47f181494_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_a53181eb25fc5a9c0104400f561c8ce62_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Pause_aa12d0dd443e7c46c88f3f139d7382a1d_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_aaf3f5db3c3f9a49ea4f9e5af74f0f240_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_acd9e8ff38a42487c17c98d28d8d81532_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_acd9e8ff38a42487c17c98d28d8d81532_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_a72ca6a7b4049030cd17af9cce98b2b5f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_a72ca6a7b4049030cd17af9cce98b2b5f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_afe8f0132a28f367334eb9460e3abdd11_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Rotate_a7a9896e29d1137699a9d5171e6133ffb_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a1b3de8fc06124f8a37d188e6486e45d3_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a05535040832e686d3519cd6399f80933_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a05535040832e686d3519cd6399f80933_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a7e61011caf16bc5bcdae597dc58db324_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a7e61011caf16bc5bcdae597dc58db324_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a71cdc0ef89ff18a6f2044536a8d7fead_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classInterp4Set_a527548fa6941cd398468835c6f861b3f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classLibInterface__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classLibInterface_a1c5c05329c2e4b8a76c7e2f0cad4bec7_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_acf6f92f9b60d3f574187b2c4c92cef15_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_a652f0c41aa6bc0e880e1932e10bf69cf_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_ae348bbcf0a1d699330d4f56603bfcf51_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classMobileObj_a48d02ca8a10b69d1390887ce1f0403c4_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_ad882b3d3c934c64c5e90a63246a47943_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_a1820f1143316026494d074b24e209dad_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_a168430769576f80dd00a4b5fde1a7fb0_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classScena_aedb5c55b91fd6bfdd93a2d224f92e05f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender_a96412f54520d550dd1ea3e9b3bb29786_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender_a100a3e1f1a1ab4c388391e5b5a6de9f8_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSender_a100a3e1f1a1ab4c388391e5b5a6de9f8_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a66e5a40ab6ed1b5910038e8fa353f4a0_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a391e0a229dfb61c4591726431944734e_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a2937ad1176abdcc9296c1449e8c06e42_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a1006bc9f78886f8665e4e248ee5a1e27_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classSet4LibInterfaces_a1006bc9f78886f8665e4e248ee5a1e27_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5b02088c3e4421d8606f3a2e1f9ba411_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5888326f2d9145908ff308e9aeff795e_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5888326f2d9145908ff308e9aeff795e_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a18cd48f030387cdc1c52211856735f33_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a18cd48f030387cdc1c52211856735f33_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5588af2dc423d361e688cbad0a3da877_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5e3c76e68652f288d9bad7ce55493253_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classXMLInterp4Config_a5e3c76e68652f288d9bad7ce55493253_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/namespacegeom_ae7cf32f8462c8e56413fe6564b18cebe_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ab61e8a0071fce9a35785033c48c7f256_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_abc4ad52f3fe464ae0aa8c06830e095f0_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a079e4dfa05cae252743a011845be9380_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a6177b4b7c264345057bc97fe59f24e1b_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a22e2b0ee867b24e5c28986c450dfa015_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ab3ba3eea9ce5b60c0bdaa6cd0062a2e0_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a2eb537bd0153ac0898a47dc10b0512a1_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ad26800e2f6dd4d02a6a5c04d9993c41e_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_ade22504afc1efd37089d2921edf8d036_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a1c9f0be69f15611dc2eb5afc18afdcde_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_a2036ad643efa0a17f8f1e242b9f30c96_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/classgeom_1_1Vector_af40279932a4f4081f432c7e9866f6279_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_b58d0ee721b2087e51cb0bcc78a10465_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_b4c3aec6cd8f28418150dce663061cfa_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_e5c39bd51a803044aa486678acd3aea1_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_0.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_1.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_2.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_3.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_4.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_5.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_6.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_7.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_8.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/adam/Pulpit/zamp z zajęć/ZAMP/dox/doc/html/inherit_graph_9.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
