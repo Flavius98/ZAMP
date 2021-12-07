@@ -30,7 +30,8 @@ int Send(int Sk2Server, const char *sMesg);
  * W tym celu monitoruje zmiany na scenie, a gdy je wykryje przesyła
  * informacje o aktualnej pozycji wszystkich obiektów.
  */
-class Sender {
+class Sender 
+{
   /*!
    * \brief Wartość tego pola decyduje o kontynuacji wykonywania wątku.
    * 
@@ -49,13 +50,21 @@ class Sender {
    */
    Scena          *_pScn = nullptr;
 
-  
+   std::thread klient_thread;
+
  public:
   /*!
    * \brief Inicjalizuje obiekt deskryptorem gniazda i wskaźnikiem
    *        na scenę, na zmianę stanu które będzie ten obiekt reagował.
    */
    Sender(int Socket, Scena *pScn): _Socket(Socket), _pScn(pScn) {}
+
+     ~Sender()
+  {
+    this->CancelCountinueLooping();
+    this->klient_thread.join();
+    close(_Socket);
+  }
 
   /*!
    * \brief Sprawdza, czy pętla wątku może być wykonywana.
@@ -88,13 +97,11 @@ class Sender {
        
        //------- Przeglądanie tej kolekcji to uproszczony przykład
        
-       Send(_Socket,"Clear\n"); // To jest konieczne, aby usunąć wcześniejsze obiekty.
-       //cout << "Clear\n";
-
-       std::vector<MobileObj*> objects_list;
+    std::map<std::string, MobileObj *> MobileObjects = _pScn->getObjList();
+    std::vector<MobileObj*> objects_list;
     std::map<std::string, MobileObj*>::iterator Iter;
 
-    for(Iter = this->_pScn->getObjList().begin(); Iter != this->_pScn->getObjList().end(); Iter++)
+    for(Iter = MobileObjects.begin(); Iter != MobileObjects.end(); Iter++)
     {
         objects_list.push_back(Iter->second);
     }
@@ -102,10 +109,10 @@ class Sender {
 
     for (MobileObj* object_ptr : objects_list)
     {
-      MobileObj* object = object_ptr;
+      //MobileObj* object = object_ptr;
 
       std::string message = "UpdateObj";
-      message += object->ActualPosition();
+      message += object_ptr->ActualPosition();
                                      // Ta instrukcja to tylko uproszczony przykład
           // cout << objectPointer->movingState;
            Send(_Socket, message.c_str()); // Tu musi zostać wywołanie odpowiedniej

@@ -43,61 +43,77 @@ bool Set4LibInterfaces::ReadCommands(std::istringstream &iStrm, int socket)
 {
   std::string _Com_Name, _Obj_Name;
   bool flag;
-    std::string message = "Clear\n";
+  std::string message = "Clear\n";
 
-  std::vector<MobileObj *> _objectsList = this->getScena()->getObjects();
-
-  //Send(socket, "Clear\n");
-  for (MobileObj *_objectPtr : _objectsList)
+  std::vector<MobileObj*> _objectsList = this->getScena()->getObjects();
+  
+ // Send(socket,"Clear\n");
+  for(MobileObj* _objectPtr : _objectsList)
   {
     message += "AddObj " + _objectPtr->returnParameters();
   }
-  const char *sConfigCmds = message.c_str();
-  Send(socket, sConfigCmds);
-  std::cout << message;
+  Send(socket,message.c_str());
+    std::cout<<message<<std::endl;   
     std::cout<< "Panie Janie Pora wstac" << std::endl;
 
+  
 
   while (iStrm >> _Com_Name) // sprawdza, czy w strumieniu jest jeszcze jakaś komenda
   {
-    if(_Com_Name!= "Pause") iStrm >> _Obj_Name;
-    
-    flag = true;
-    std::map<std::string, LibInterface*>::iterator Iter = this->_Lib_List.find(_Com_Name);
-    if (Iter == this->_Lib_List.end())
-    {
-      std::cerr << "!!! Brak komendy " << _Com_Name << std::endl;
-      flag = false;
-    }
-      
-      
-    
+    std::vector<std::thread *> _THREAD_list;
 
-    // Tworzy komendę na podstawie funkcji wtyczki
-    if(flag)
+    while (_Com_Name != "End_Parallel_Actions")
     {
-    Interp4Command *pCommand = Iter->second->pCreateCmd();
-    if (!pCommand->ReadParams(iStrm))
+      //if(_Com_Name == "End_Parallel_Actions") break;
+
+      if (_Com_Name != "Pause" && _Com_Name != "Begin_Parallel_Actions")
+        iStrm >> _Obj_Name;
+      flag = true;
+      std::map<std::string, LibInterface *>::iterator Iter = this->_Lib_List.find(_Com_Name);
+      if (Iter == this->_Lib_List.end())
+      {
+        std::cerr << "!!! Brak komendy " << _Com_Name << std::endl;
+
+        flag = false;
+      }
+
+      // Tworzy komendę na podstawie funkcji wtyczki
+
+      if (flag)
+      {
+        Interp4Command *pCommand = Iter->second->pCreateCmd();
+        if (!pCommand->ReadParams(iStrm))
+        {
+          std::cerr << "!!! Nieporawne parametry dla komendy '" << _Com_Name << std::endl;
+          delete pCommand;
+          return false;
+        }
+        MobileObj *_Obj = this->scena->FindMobileObj(_Obj_Name);
+        //std::cout << _Obj_Name<<std::endl;
+        if (_Obj == nullptr)
+        {
+          std::cerr << "!!! Obiekt " << _Obj_Name << " nie istnieje" << std::endl;
+          delete pCommand;
+          return false;
+        }
+        else
+        { 
+          //pCommand->ExecCmd(_Obj, this->scena);
+          pCommand->PrintCmd();
+          std::thread* new_thread = new std::thread(&Interp4Command::ExecCmd, pCommand, _Obj, this->scena);
+          _THREAD_list.push_back(new_thread);
+        //if(pCommand->ExecCmd(_Obj, socket)){std::cout<<"Udało się załodować obiekt z sceny"<<std::endl;}
+        }
+        //delete pCommand;
+      }
+
+      iStrm >> _Com_Name;
+    }
+    for (std::thread *thread_object : _THREAD_list) // czekaj na zakończenie wszystkich zadań
     {
-      std::cerr << "!!! Nieporawne parametry dla komendy '" << _Com_Name << std::endl;
-      delete pCommand;
-      return false;
+      thread_object->join();
+      delete thread_object;
     }
-    MobileObj* _Obj = this->scena->FindMobileObj(_Obj_Name);
-    //std::cout << _Obj_Name<<std::endl;
-    if(_Obj == nullptr)
-    {
-      std::cerr << "!!! Obiekt " << _Obj_Name <<" nie istnieje"<< std::endl;
-      delete pCommand;
-      return false;
-    }
-    else
-   
-    pCommand->PrintCmd();
-    //if(pCommand->ExecCmd(_Obj, socket)){std::cout<<"Udało się załodować obiekt z sceny"<<std::endl;}
-    delete pCommand;
-    }
-    
   }
   return true;
 }

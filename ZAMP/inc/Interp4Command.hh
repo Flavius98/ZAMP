@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "MobileObj.hh"
+#include "AccessControl.hh"
 
 /*!
  * \file
