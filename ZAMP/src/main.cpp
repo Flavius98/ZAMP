@@ -50,14 +50,6 @@ int main()
   LibraryList->ExecPreprocessor("zbior_polecen.cmd", iStrm);
   LibraryList->ReadCommands(iStrm,Socket4Sending);
 
-  /*const char *sConfigCmds = "Clear\n"
-  "AddObj Name=Podstawa RGB=(20,200,200) Scale=(4,2,1) Shift=(0.5,0,0) RotXYZ_deg=(0,-45,20) Trans_m=(-1,3,0)\n"
-  "AddObj Name=Podstawa.Ramie1 RGB=(200,0,0) Scale=(3,3,1) Shift=(0.5,0,0) RotXYZ_deg=(0,-45,0) Trans_m=(4,0,0)\n"
-  "AddObj Name=Podstawa.Ramie1.Ramie2 RGB=(100,200,0) Scale=(2,2,1) Shift=(0.5,0,0) RotXYZ_deg=(0,-45,0) Trans_m=(3,0,0)\n";      
-  Send(Socket4Sending,sConfigCmds);
-
-  std::cout << sConfigCmds <<std::endl;
-  std::cout << "tesciwo" <<std::endl;*/
   close(Socket4Sending, _Sender, move(Thread4Sending));
   
   return 0;
