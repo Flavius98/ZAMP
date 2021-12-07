@@ -17,12 +17,12 @@ int Send(int Sk2Server, const char *sMesg)
   return 0;
 }
 
-Sender::Sender(int Socket, Scena *pScn): _Socket(Socket), _pScn(pScn){this->klient_thread = std::thread(Fun_CommunicationThread,this);}
-
 void Fun_CommunicationThread(Sender  *pSender)
 {
   pSender->Watching_and_Sending();
 }
+
+Sender::Sender(int Socket, Scena *pScn): _Socket(Socket), _pScn(pScn){this->klient_thread = std::thread(Fun_CommunicationThread,this);}
 
 bool OpenConnection(int &rSocket)
 {

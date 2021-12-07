@@ -152,7 +152,6 @@ void XMLInterp4Config::ProcessCubeAttrs(const xercesc::Attributes  &rAttrs)
  } else {
      cout << " Czytanie wartosci OK!!!" << endl;
      cout << "     " << Scale[0] << "  " << Scale[1] << "  " << Scale[2] << endl;
-     cout << "     " << sValue_Scale << endl;
  }
 
 //this->config.AddMobileObj(sValue_Name,Scale,sValue_RGB);

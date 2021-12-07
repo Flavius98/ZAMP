@@ -1,21 +1,26 @@
 #include "Set4LibInterfaces.hh"
 
-Set4LibInterfaces::Set4LibInterfaces(std::map<std::string, MobileObj*> &_Object_List)
+Set4LibInterfaces::Set4LibInterfaces(std::map<std::string, MobileObj *> &_Object_List)
 {
-    this->scena = new Scena(_Object_List);
-    LoadLibrary("libs/libInterp4Move.so");
-    LoadLibrary("libs/libInterp4Set.so");
-    LoadLibrary("libs/libInterp4Rotate.so");
-    LoadLibrary("libs/libInterp4Pause.so");
-    //this->scena->AddMobileObj("Alpha");
+  this->scena = new Scena(_Object_List);
+  LoadLibrary("libs/libInterp4Move.so");
+  LoadLibrary("libs/libInterp4Set.so");
+  LoadLibrary("libs/libInterp4Rotate.so");
+  LoadLibrary("libs/libInterp4Pause.so");
+  //this->scena->AddMobileObj("Alpha");
 }
 
-Set4LibInterfaces::~Set4LibInterfaces() {_Lib_List.clear();if(nullptr != scena) delete scena;}
+Set4LibInterfaces::~Set4LibInterfaces()
+{
+  _Lib_List.clear();
+  if (nullptr != scena)
+    delete scena;
+}
 
 void Set4LibInterfaces::LoadLibrary(std::string path)
 {
-    LibInterface *pLibrary = new LibInterface(path);
-    _Lib_List.insert({pLibrary->_Lib_Name, pLibrary});
+  LibInterface *pLibrary = new LibInterface(path);
+  _Lib_List.insert({pLibrary->_Lib_Name, pLibrary});
 }
 
 bool Set4LibInterfaces::ExecPreprocessor(const char *NazwaPliku, std::istringstream &IStrm4Cmds)
@@ -25,9 +30,10 @@ bool Set4LibInterfaces::ExecPreprocessor(const char *NazwaPliku, std::istringstr
   std::ostringstream OTmpStrm;
 
   Cmd4Preproc += NazwaPliku;
-  FILE* pProc = popen(Cmd4Preproc.c_str(),"r");
+  FILE *pProc = popen(Cmd4Preproc.c_str(), "r");
 
-  if (!pProc) return false;
+  if (!pProc)
+    return false;
 
   while (fgets(Line, 500, pProc))
   {
@@ -35,7 +41,6 @@ bool Set4LibInterfaces::ExecPreprocessor(const char *NazwaPliku, std::istringstr
   }
 
   IStrm4Cmds.str(OTmpStrm.str());
-
   return pclose(pProc) == 0;
 }
 
@@ -45,18 +50,16 @@ bool Set4LibInterfaces::ReadCommands(std::istringstream &iStrm, int socket)
   bool flag;
   std::string message = "Clear\n";
 
-  std::vector<MobileObj*> _objectsList = this->getScena()->getObjects();
-  
- // Send(socket,"Clear\n");
-  for(MobileObj* _objectPtr : _objectsList)
+  std::vector<MobileObj *> _objectsList = this->getScena()->getObjects();
+
+  //Send(socket, "Clear\n");
+  for (MobileObj *_objectPtr : _objectsList)
   {
     message += "AddObj " + _objectPtr->returnParameters();
   }
-  Send(socket,message.c_str());
-    std::cout<<message<<std::endl;   
-    std::cout<< "Panie Janie Pora wstac" << std::endl;
-
-  
+  const char *sConfigCmds = message.c_str();
+  Send(socket, sConfigCmds);
+  std::cout << message;
 
   while (iStrm >> _Com_Name) // sprawdza, czy w strumieniu jest jeszcze jakaś komenda
   {

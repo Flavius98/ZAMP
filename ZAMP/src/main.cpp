@@ -27,6 +27,7 @@ int main()
   cout << "Port: " << PORT << endl;
 
   int Socket4Sending;
+
   
 
   if(false == ReadFile("config/config.xml",config))
@@ -39,16 +40,16 @@ int main()
   Set4LibInterfaces *LibraryList = new Set4LibInterfaces(objectsList);
 
   if(!OpenConnection(Socket4Sending))
-    return 1;
-
-  else 
-    std::cout<<"Połączenie powiodło się"<<std::endl;
-
-  Sender *_Sender = new Sender(Socket4Sending, LibraryList->getScena());
+  {
+     return 1;
+  }
+  else std::cout<<"Połączenie powiodło się"<<std::endl;
+  Sender *_Sender = new Sender(Socket4Sending, LibraryList->getScena());//dorób funkcję do odbierania sceny z setlibinterfaces
+  
   //thread Thread4Sending(Fun_CommunicationThread, &_Sender);
-
   LibraryList->ExecPreprocessor("zbior_polecen.cmd", iStrm);
   LibraryList->ReadCommands(iStrm,Socket4Sending);
+
 
   //close(Socket4Sending, _Sender, move(Thread4Sending));
   
