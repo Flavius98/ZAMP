@@ -44,13 +44,13 @@ int main()
   else 
     std::cout<<"Połączenie powiodło się"<<std::endl;
 
-  Sender _Sender(Socket4Sending, LibraryList->getScena());
-  thread Thread4Sending(Fun_CommunicationThread, &_Sender);
+  Sender *_Sender = new Sender(Socket4Sending, LibraryList->getScena());
+  //thread Thread4Sending(Fun_CommunicationThread, &_Sender);
 
   LibraryList->ExecPreprocessor("zbior_polecen.cmd", iStrm);
   LibraryList->ReadCommands(iStrm,Socket4Sending);
 
-  close(Socket4Sending, _Sender, move(Thread4Sending));
+  //close(Socket4Sending, _Sender, move(Thread4Sending));
   
   return 0;
 }

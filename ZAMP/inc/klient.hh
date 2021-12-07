@@ -112,13 +112,13 @@ class Sender
       //MobileObj* object = object_ptr;
 
       std::string message = "UpdateObj";
-      message += object_ptr->ActualPosition();
+      message += object_ptr->returnParameters();
                                      // Ta instrukcja to tylko uproszczony przykład
           // cout << objectPointer->movingState;
            Send(_Socket, message.c_str()); // Tu musi zostać wywołanie odpowiedniej
                                            // metody/funkcji gerującej polecenia dla serwera.
        }
-       Send(_Socket,"Display\n"); // To jest konieczne, aby zobaczyć zmiany
+       //Send(_Socket,"Display\n"); // To jest konieczne, aby zobaczyć zmiany
        //cout << "Display\n";
        
        _pScn->CancelChange();
